@@ -97,6 +97,16 @@ function draw() {
     drawBricks()
 }
 
+
+
+function update() {
+
+    draw()
+    requestAnimationFrame(update)
+}
+// Keyboard event handlers
+document.addEventListener('keydown', keyDown)
+
 //  Rules open and close event handlers
 rulesBtn.addEventListener('click', () => {
     rules.classList.add('show')
