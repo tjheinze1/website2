@@ -1,0 +1,5 @@
+make sure you are in the right directory
+
+git add .
+git commit -m "MESSAGE"
+git push
